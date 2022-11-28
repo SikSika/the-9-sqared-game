@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Inconsolata:wght@500&display=swap');
+
+#background {
+	font-family: 'Comfortaa';
+	background-color: lightblue;
+	margin: 0;
+	padding: 100px;
+	padding-bottom: 80px;
+}
+
+#board {
+	margin: 100px;
+}
+
+.container {
+	display: flex;
+	justify-content: row;
+	margin: 0px;
+}
+
+.input {
+	padding: 50px;
+	background: transparent;
+	transition-duration: 0.4s;
+}
+
+.input:hover {
+	background-color: #e6faff;
+	border-color: #758391;
+}
+
+.input:focus { outline:0 !important; }
+
+#space {
+	margin: 50px;
+	padding: 0;
+}
+
+#turn {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+@keyframes blinkTextCursor {
+	from {
+		border-right-color: black;
+	}
+ 	to {
+ 		border-right-color: lightblue;
+ 	}
+}
